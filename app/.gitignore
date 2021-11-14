@@ -1,0 +1,99 @@
+# dot files
+.DS_Store
+.gradletasknamecache
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+captures/
+
+# Gradle files
+.gradle/
+build/
+/*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+.cxx
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.exec
+/*/*/*.exec
+/*/*.exec
+projectFilesBackup
+.idea
+/.idea/
+
+# Fastlane temporary profiling data
+/fastlane/report.xml
+/fastlane/GitTagName
+ktlint-checkstyle.xml
+*.zip
+
+# Deliver temporary error output
+/fastlane/Error*.png
+
+# Deliver temporary preview output
+/fastlane/Preview.html
+
+# Snapshot generated screenshots
+/fastlane/screenshots/*/*-portrait.png
+/fastlane/screenshots/*/*-landscape.png
+/fastlane/screenshots/screenshots.html
+
+# Frameit generated screenshots
+/fastlane/screenshots/*/*-portrait_framed.png
+/fastlane/screenshots/*/*-landscape_framed.png
+/fastlane/VersionName
+
+# Ktlint
+/ktlint.asc
+/ktlint
+
+# Sonar
+.scannerwork/
+.idea/sonarlint/issuestore
+
+# Vim
+*.swp
+*.vim
+
+# Bitrise
+gradle.deps
+GOOGLE_APPLICATION_CREDENTIALS.json
+.bitrise.secrets.yml
+/detekt-report.xml
+/sonar-project.properties
+
+# Detekt
+detekt-checkstyle.xml
+
+# VScode
+.vscode
+
+#Big Sur file
+/X#
